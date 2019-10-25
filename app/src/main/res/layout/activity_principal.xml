@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Perfil.Principal"
+    android:layout_margin="30dp">
+
+    <EditText
+        android:id="@+id/tbmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Mail"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/tbdni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        android:hint="DNI"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/tbnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Nombre"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/tbapellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Apellido"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/tbpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:text=""
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btneditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Guardar"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/background_light"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="guardar"/>
+    <Button
+        android:id="@+id/btnsalir"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cerrar Sesión"
+        android:textColor="@android:color/background_light"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="cerrarSesion"/>
+
+
+</LinearLayout>
